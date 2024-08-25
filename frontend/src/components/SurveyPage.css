@@ -1,0 +1,53 @@
+.survey-page {
+  background-color: #bee7c0;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.survey-title {
+  font-size: 6rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.question {
+  margin-bottom: 2rem;
+}
+
+.options label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.scale-options {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.scale-options label {
+  margin-right: 1rem;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  background-color: #004d40;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #00332a;
+}

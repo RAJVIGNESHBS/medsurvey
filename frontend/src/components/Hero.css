@@ -1,0 +1,28 @@
+.hero-container {
+    background-color: #006a58; /* Fallback background color */
+    color: white; /* Text color */
+    padding: 2rem 1rem; /* Adjust padding as needed */
+    text-align: center;
+    position: relative; /* Position relative for absolute positioning of the image */
+  }
+  
+  .hero-title {
+    font-size: 8rem; /* Title font size */
+    margin-bottom: 2rem; /* Spacing below title */
+  }
+  
+  .hero-subtitle {
+    font-size: 2rem; /* Subtitle font size */
+    margin-top: 8rem; 
+  }
+  
+  /* Centered image styling */
+  .hero-image {
+    position: absolute; /* Absolute positioning within the container */
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the image */
+    max-width: 100%; /* Ensure image is responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
